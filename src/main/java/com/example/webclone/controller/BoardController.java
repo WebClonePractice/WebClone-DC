@@ -43,7 +43,6 @@ public class BoardController {
     @GetMapping("/김동욱/board/list")
     public String boardList(Model model) {
 
-        model.
 
         return "boardList";
     }
