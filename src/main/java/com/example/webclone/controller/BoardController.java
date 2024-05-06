@@ -16,5 +16,9 @@ public class BoardController {
         return "boardKDW";
     }
 
+    @GetMapping("/jmj")
+    public String boardJMJ() {
+        return "boardJMJ";
+    }
     //test3333
 }
